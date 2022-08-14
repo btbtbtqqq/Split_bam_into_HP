@@ -16,12 +16,12 @@ This generator requires [pysam](https://pysam.readthedocs.io/en/latest/installat
 You can simply run it by using this script:
 
 ```sh
-python3 Split_bam_into_HP.py -b my.bam -h HP
+python3 Split_bam_into_HP.py -b my.bam -hp HP
 ```
 
 You can Specify the output file name and output folder:
 ```sh
-python3 Split_bam_into_HP.py -b my.bam -h HP -o1 new_HP_1.bam -o2 new_HP_2.bam  -o3 new_noHP.bam -d /outputdirection/
+python3 Split_bam_into_HP.py -b my.bam -hp HP -o1 new_HP_1.bam -o2 new_HP_2.bam  -o3 new_noHP.bam -d /outputdirection/
 ```
 
 ### Note
