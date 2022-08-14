@@ -3,11 +3,11 @@ Split Bam file in to three isolated bam by using Haplotype tags (HP:i:1 or HP:i:
 
 
 There are two step:<br>
-** (1) Divide Input-Bam into 3 files:<br>
+(1) Divide Input-Bam into 3 files:<br>
  		'Haplotype 1 Bam'--'1.0.bam'<br>
  		'Haplotype 2 Bam'--'2.0.bam'<br>
 		'Unphased Bam'   --'0.0.bam'<br>
-** (2) Index and Sort 3 new Bam files (Require samtools env)<br>
+(2) Index and Sort 3 new Bam files (Require samtools env)<br>
 
 ## Usage
 
