@@ -21,9 +21,9 @@ python3 Split_bam_into_HP.py -b my.bam -h HP
 
 You can Specify the output file name and output folder:
 ```sh
-python3 Split_bam_into_HP.py -b my.bam -h HP -o1 new_HP_1.bam -o2 new_HP_2.bam  -o2 new_noHP.bam -d /outputdirection/
+python3 Split_bam_into_HP.py -b my.bam -h HP -o1 new_HP_1.bam -o2 new_HP_2.bam  -o3 new_noHP.bam -d /outputdirection/
 ```
 
 ### Note
 
-This small tool adapts to duel with bam file which added 'HP:i' tags by [longshot](https://github.com/pjedge/longshot/), [longphase](https://github.com/twolinin/longphase/)
+This small tool adapts to duel with bam file which added 'HP:i' tags by [longshot](https://github.com/pjedge/longshot/), [longphase](https://github.com/twolinin/longphase/)， etc..
