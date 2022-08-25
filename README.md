@@ -13,7 +13,7 @@ There are two step:<br>
 
 ## Usage
 
-This generator requires [pysam](https://pysam.readthedocs.io/en/latest/installation.html), [samtools](http://www.htslib.org/download/)
+This generator requires [pysam](https://pysam.readthedocs.io/en/latest/installation.html), [samtools](http://www.htslib.org/download/) when use it in HPC.
 
 You can simply run it by using this script:
 
