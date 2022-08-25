@@ -1,4 +1,4 @@
-# Split_bam_into_HP
+# Split haplotagged BAM 
 Split Bam file in to three isolated bam by using Haplotype tags (HP:i:1 or HP:i:2)<br>
 
 
@@ -8,6 +8,8 @@ There are two step:<br>
  		'Haplotype 2 Bam'--'2.0.bam'<br>
 		'Unphased Bam'   --'0.0.bam'<br>
 (2) Index and Sort 3 new Bam files (Require samtools env)<br>
+
+<img src="Bam_split.png" width="600px"><br>
 
 ## Usage
 
