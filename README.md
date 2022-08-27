@@ -11,6 +11,13 @@ There are two step:<br>
 
 <img src="Bam_split.png" width="600px"><br>
 
+##Proactive
+Example:
+```sh
+conda create -n py39 python=3.9
+conda activate py39
+conda install -c bioconda pysam==0.19.1
+```
 ## Usage
 
 This generator requires [pysam](https://pysam.readthedocs.io/en/latest/installation.html), [samtools](http://www.htslib.org/download/) when use it in HPC.
@@ -25,6 +32,9 @@ You can Specify the output file name and output folder:
 ```sh
 python3 Split_bam_into_HP.py -b my.bam -hp HP -o1 new_HP_1.bam -o2 new_HP_2.bam  -o3 new_noHP.bam -d /outputdirection/
 ```
+
+
+
 
 ### Note
 
