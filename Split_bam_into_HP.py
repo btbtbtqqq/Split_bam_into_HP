@@ -23,7 +23,7 @@ def main():
     parser.add_argument('-o2', '--output2', dest='output2', required=False, help='Output BAM file #HP:2 (Optional)')
     parser.add_argument('-o3', '--output3', dest='output3', required=False, help='Output BAM file #Unsign (Optional)')
     parser.add_argument('-d', '--output-dir', dest='output_dir', required=False, help='Output directory (Optional)')
-    parser.add_argument('-hp', '--haplotype_tag', dest='haplotype_tag', type=float, required=False, help='Haplotype tags (HP) in each reads are HP:i:1 or HP:i:2')
+    parser.add_argument('-hp', '--haplotype_tag', dest='haplotype_tag', type=str, required=False, help='Haplotype tags (HP) in each reads are HP:i:1 or HP:i:2')
     args = parser.parse_args()
     print('#   Input Bam File  #')
     print(args.bam_file)
