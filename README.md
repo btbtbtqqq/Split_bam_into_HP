@@ -11,7 +11,7 @@ There are two step:<br>
 
 <img src="Bam_split.png" width="600px"><br>
 
-##Proactive
+## Proactive
 Example:
 ```sh
 conda create -n py39 python=3.9
