@@ -14,9 +14,8 @@ There are two step:<br>
 ## Proactive
 Example:
 ```sh
-conda create -n py39 python=3.9.13
+conda create -n py39 -c bioconda python=3.9.13 pysam==0.19.1
 conda activate py39
-conda install -c bioconda pysam==0.19.1
 ```
 ## Usage
 
